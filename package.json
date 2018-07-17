@@ -1,8 +1,26 @@
 {
   "name": "@promotively/eslint-config-react",
+  "author": {
+    "name": "Steven Ewing",
+    "email": "steven.ewing@promotively.com",
+    "url": "https://www.promotively.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/promotively/eslint-config-react.git"
+  },
+  "homepage": "https://www.promotively.com",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=10.6.0",
+    "yarn": ">=1.7.0"
+  },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "peerDependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.3.0"
   }
