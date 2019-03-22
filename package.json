@@ -24,11 +24,7 @@
     "es6"
   ],
   "devDependencies": {
-    "eslint": "^5.13.0",
+    "eslint": "^5.15.3",
     "eslint-plugin-react": "^7.12.4"
-  },
-  "peerDependencies": {
-    "eslint": "^5.1.0",
-    "eslint-plugin-react": "^7.3.0"
   }
 }
