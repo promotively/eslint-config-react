@@ -17,7 +17,7 @@ With NPM
 
 `npm install -D @promotively/eslint-config-react`
 
-## Usage
+## Setup
 
 Add package to your eslint config file.
 
@@ -27,5 +27,10 @@ Add package to your eslint config file.
 }
 ```
 
+## Feedback
+
+Feedback is more than welcome via [GitHub](https://www.github.com/promotively), [Twitter](https://www.twitter.com/promotively) or our [Website](https://www.promotively.com).
+
 ## License
+
 MIT
