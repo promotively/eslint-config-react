@@ -25,6 +25,7 @@
   ],
   "devDependencies": {
     "eslint": "^5.15.3",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^2.2.0"
   }
 }

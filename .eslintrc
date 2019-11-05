@@ -6,7 +6,10 @@
     },
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
   "rules": {
     "react/jsx-no-bind": ["error", {
       "allowArrowFunctions": true,
@@ -30,6 +33,8 @@
     "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-    "react/self-closing-comp": "error"
+    "react/self-closing-comp": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
