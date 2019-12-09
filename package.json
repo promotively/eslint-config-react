@@ -9,7 +9,7 @@
     "url": "https://github.com/promotively/eslint-config-react"
   },
   "homepage": "https://promotively.com",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "keywords": [
     "react",
