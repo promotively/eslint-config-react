@@ -11,6 +11,9 @@
   "homepage": "https://promotively.com",
   "version": "1.2.2",
   "main": "index.js",
+  "scripts": {
+    "check": "eslint-find-rules --no-core --deprecated --unused index.js # usage: npm run --silent check"
+  },
   "keywords": [
     "react",
     "reactjs",
@@ -20,12 +23,18 @@
     "eslint-rules",
     "eslint-configs",
     "javascript",
+    "typescript",
     "es2018",
+    "es2019",
+    "es2020",
+    "es5",
     "es6"
   ],
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^3.0.0"
+    "eslint": "^7.11.0",
+    "eslint-find-rules": "^3.6.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
